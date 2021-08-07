@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@craco/craco": "^6.2.0",
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.3.2",
     "@testing-library/user-event": "^7.1.2",
@@ -13,14 +14,15 @@
     "ethers": "^5.0.17",
     "react": "^16.14.0",
     "react-dom": "^16.14.0",
-    "react-scripts": "3.4.3",
+    "react-router-dom": "^5.2.0",
+    "react-scripts": "4.0.3",
     "typescript": "^3.9.7",
     "web3modal": "^1.9.1"
   },
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
+    "start": "craco start",
+    "build": "craco build",
+    "test": "craco test",
     "eject": "react-scripts eject"
   },
   "eslintConfig": {
@@ -40,6 +42,10 @@
   },
   "devDependencies": {
     "@ethersproject/contracts": "^5.4.1",
-    "@ethersproject/providers": "^5.4.3"
+    "@ethersproject/providers": "^5.4.3",
+    "@types/react-router-dom": "^5.1.8",
+    "autoprefixer": "^9",
+    "postcss": "^7",
+    "tailwindcss": "npm:@tailwindcss/postcss7-compat@^2.2.7"
   }
 }

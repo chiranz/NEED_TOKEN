@@ -3,10 +3,8 @@ import "@nomiclabs/hardhat-ethers";
 import "@nomiclabs/hardhat-waffle";
 import { ethers } from "hardhat";
 import { SignerWithAddress } from "@nomiclabs/hardhat-ethers/signers";
-import {
-  NeedToken,
-  NeedToken__factory,
-} from "../frontend/src/hardhat/typechain";
+import { NeedToken__factory } from "../frontend/src/hardhat/typechain/factories/NeedToken__factory";
+import { NeedToken } from "../frontend/src/hardhat/typechain/NeedToken";
 
 let NeedContract: NeedToken__factory;
 let needContract: NeedToken;
