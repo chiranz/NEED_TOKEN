@@ -3,10 +3,8 @@
 /* eslint-disable */
 export type { ERC20 } from "./ERC20";
 export type { IERC20 } from "./IERC20";
-export type { Greeter } from "./Greeter";
 export type { NeedToken } from "./NeedToken";
 
 export { ERC20__factory } from "./factories/ERC20__factory";
 export { IERC20__factory } from "./factories/IERC20__factory";
-export { Greeter__factory } from "./factories/Greeter__factory";
 export { NeedToken__factory } from "./factories/NeedToken__factory";
