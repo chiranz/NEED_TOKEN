@@ -1,15 +1,4 @@
-# Simulation project for Universal Basic Fund (UBF)
+# Simple ERC20 token with added features
 
-## Description
-  - A basic fund for everyone to help you survive 6 months anywhere. You can recieve this fund one in a lifetime.
-  - Once you claim the fund we set your trust score as 10. Any misuse of protocol or even trying to mint again will cost you 3 trust score.
-  - Your trust score will give you an opportunity to transact with the protocol.
-
-## Completed
-  - Build a basic smart contract for UBF model ✅ 
-  - Write tests to test smart contract ✅ 
-
-## Challenges
-  - Build a UI where any one with wallet can interact with the contract 
-  - Update UI when certain event's occur 
-  - More...
+## Contract Address
+- [ Rinkeby EtherScan  ]( https://rinkeby.etherscan.io/address/0x9912369a42664b07b8C1073294a0c9ff25Df5d03 )
