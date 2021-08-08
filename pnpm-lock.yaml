@@ -10,6 +10,7 @@ specifiers:
   '@types/mocha': ^8.0.4
   '@types/node': ^14.14.9
   chai: ^4.2.0
+  dotenv: ^10.0.0
   ethereum-waffle: ^3.2.0
   ethers: ^5.0.21
   hardhat: ^2.0.8
@@ -21,6 +22,9 @@ specifiers:
   ts-node: ^9.0.0
   typechain: ^4.0.1
   typescript: ^4.1.2
+
+dependencies:
+  dotenv: 10.0.0
 
 devDependencies:
   '@nomiclabs/hardhat-ethers': 2.0.2_ethers@5.4.3+hardhat@2.5.0
@@ -2564,6 +2568,11 @@ packages:
   /dom-walk/0.1.2:
     resolution: {integrity: sha512-6QvTW9mrGeIegrFXdtQi9pk7O/nSK6lSdXW2eqUspN5LWD7UTji2Fqw5V2YLjBpHEoU9Xl/eUWNpDeZvoyOv2w==}
     dev: true
+
+  /dotenv/10.0.0:
+    resolution: {integrity: sha512-rlBi9d8jpv9Sf1klPjNfFAuWDjKLwTIJJ/VxtoTwIR6hnZxcEOQCZg2oIL3MWBYw5GpUDKOEnND7LXTbIpQ03Q==}
+    engines: {node: '>=10'}
+    dev: false
 
   /dotignore/0.1.2:
     resolution: {integrity: sha512-UGGGWfSauusaVJC+8fgV+NVvBXkCTmVv7sk6nojDZZvuOUNGUy0Zk4UpHQD6EDjS0jpBwcACvH4eofvyzBcRDw==}
